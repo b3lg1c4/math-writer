@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+  <title>Math Writer</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="plugins/mathquill-0.10.1/mathquill.css">
+  <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
+
+</head>
+
+<body>
+  <section class="download-section">
+    <div class="download-box">
+      <div class="downloading-circle"></div>
+        <p>Aguarde, su documento se está descargando</p>
+    </div>
+  </section>
+  <header>
+    <div class="brand">
+      <h1>Math Writer</h1>
+    </div>
+
+    <div class="header-content">
+      <nav>
+        <ul>
+          <li><button class="btn button-1" type="button" name="button"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                  d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z">
+                </path>
+              </svg>
+            </button></li>
+          <li><button class="btn button-2" type="button" name="button"><svg class="moon-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="moon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z">
+                </path>
+              </svg>
+              <svg class="sun-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                <circle cx="255.997" cy="255.997" r="144.824" />
+                <path d="M256,56.849c-4.273,0-7.737-3.463-7.737-7.737V7.737C248.263,3.463,251.727,0,256,0
+              		s7.737,3.463,7.737,7.737v41.376C263.737,53.386,260.273,56.849,256,56.849z" />
+                <path d="M152.563,84.568c-2.674,0-5.274-1.387-6.707-3.869l-20.687-35.832
+              		c-2.136-3.7-0.869-8.432,2.832-10.569c3.701-2.134,8.432-0.87,10.569,2.832l20.687,35.832c2.136,3.7,0.869,8.432-2.832,10.569
+              		C155.206,84.234,153.876,84.568,152.563,84.568z" />
+                <path d="M76.823,160.294c-1.312,0-2.643-0.334-3.861-1.038L37.13,138.569
+              		c-3.7-2.136-4.968-6.868-2.832-10.569c2.136-3.701,6.868-4.967,10.569-2.832l35.832,20.687c3.7,2.136,4.968,6.868,2.832,10.569
+              		C82.097,158.907,79.497,160.294,76.823,160.294z" />
+                <path d="M49.112,263.737H7.737C3.464,263.737,0,260.274,0,256s3.464-7.737,7.737-7.737h41.376
+              		c4.273,0,7.737,3.463,7.737,7.737S53.385,263.737,49.112,263.737z" />
+                <path d="M41.005,387.869c-2.674,0-5.274-1.387-6.707-3.869c-2.136-3.7-0.869-8.432,2.832-10.569
+              		l35.832-20.687c3.7-2.134,8.432-0.87,10.569,2.832c2.136,3.7,0.869,8.432-2.832,10.569l-35.832,20.687
+              		C43.648,387.535,42.317,387.869,41.005,387.869z" />
+                <path d="M131.862,478.74c-1.312,0-2.643-0.334-3.861-1.038c-3.7-2.136-4.968-6.868-2.832-10.569
+              		l20.687-35.832c2.136-3.701,6.868-4.967,10.569-2.832c3.7,2.136,4.968,6.868,2.832,10.569l-20.687,35.832
+              		C137.136,477.352,134.536,478.74,131.862,478.74z" />
+                <path d="M256,512c-4.273,0-7.737-3.463-7.737-7.737v-41.376c0-4.274,3.464-7.737,7.737-7.737
+              		s7.737,3.463,7.737,7.737v41.376C263.737,508.537,260.273,512,256,512z" />
+                <path d="M380.138,478.74c-2.674,0-5.274-1.387-6.707-3.869l-20.687-35.832
+              		c-2.136-3.7-0.869-8.432,2.832-10.569c3.7-2.134,8.432-0.87,10.569,2.832l20.687,35.832c2.136,3.7,0.869,8.432-2.832,10.569
+              		C382.781,478.406,381.451,478.74,380.138,478.74z" />
+                <path d="M470.995,387.869c-1.312,0-2.643-0.334-3.861-1.038l-35.832-20.687
+              		c-3.7-2.136-4.968-6.868-2.832-10.569c2.136-3.701,6.868-4.967,10.569-2.832l35.832,20.687c3.7,2.136,4.968,6.868,2.832,10.569
+              		C476.269,386.481,473.669,387.869,470.995,387.869z" />
+                <path d="M504.263,263.737h-41.376c-4.273,0-7.737-3.463-7.737-7.737s3.464-7.737,7.737-7.737h41.376
+              		c4.273,0,7.737,3.463,7.737,7.737S508.536,263.737,504.263,263.737z" />
+                <path d="M435.177,160.294c-2.674,0-5.274-1.387-6.707-3.869c-2.136-3.7-0.869-8.432,2.832-10.569
+              		l35.832-20.687c3.7-2.134,8.432-0.87,10.569,2.832c2.136,3.7,0.869,8.432-2.832,10.569l-35.832,20.687
+              		C437.82,159.96,436.489,160.294,435.177,160.294z" />
+                <path d="M359.437,84.568c-1.312,0-2.643-0.334-3.861-1.038c-3.7-2.136-4.968-6.868-2.832-10.569
+              		l20.687-35.832c2.136-3.701,6.868-4.967,10.569-2.832c3.7,2.136,4.968,6.868,2.832,10.569l-20.687,35.832
+              		C364.711,83.181,362.11,84.568,359.437,84.568z" />
+                <path d="M256,111.18c-5.242,0-10.418,0.286-15.516,0.828c72.685,7.743,129.303,69.252,129.303,143.991
+              	s-56.619,136.249-129.303,143.992c5.098,0.544,10.273,0.828,15.516,0.828c79.982,0,144.82-64.838,144.82-144.82
+              	S335.983,111.18,256,111.18z" />
+
+              </svg>
+
+            </button></li>
+          <li><button class="btn button-3" type="button" name="button"><svg class="color-svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tint" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512">
+                <path
+                  d="M205.22 22.09c-7.94-28.78-49.44-30.12-58.44 0C100.01 179.85 0 222.72 0 333.91 0 432.35 78.72 512 176 512s176-79.65 176-178.09c0-111.75-99.79-153.34-146.78-311.82zM176 448c-61.75 0-112-50.25-112-112 0-8.84 7.16-16 16-16s16 7.16 16 16c0 44.11 35.89 80 80 80 8.84 0 16 7.16 16 16s-7.16 16-16 16z">
+                </path>
+              </svg>
+            </button></li>
+        </ul>
+      </nav>
+    </div>
+</header>
+  <div class="write">
+    <div class="color-picker">
+      <div class="font-picker">
+
+        <p>Selector de Color para fuente</p>
+        <input class="color-picker-input" type="color" name="color" value="#0999e0">
+      </div>
+      <div class="background-picker">
+        <p>Selector de Color para fondo</p>
+        <input class="background-picker-input" type="color" name="color" value="#292929">
+      </div>
+        <div class="picker-selector">
+            <input class="rb" type="radio" name="rb" value="font" checked>
+            <input class="rb" type="radio" value="background" name="rb">
+        </div>
+    </div>
+
+    <span id="0" class="input"></span>
+  </div>
+
+  <div class="math-tools">
+    <div class="header-tools">
+      <div class="menu-bar">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="tools-container">
+      <div class="tool-element tools-last-clon">
+        <div class="item integer-button">\Z</div>
+        <div class="item rational-button">\Q</div>
+        <div class="item real-button">\R</div>
+        <div class="item complex-button">\C</div>
+        <div class="item naturals-button">\N</div>
+        <div class="item alpha-button">\alpha</div>
+        <div class="item beta-button">\beta</div>
+        <div class="item theta-button">\theta</div>
+        <div class="item delta-button">\Delta</div>
+        <div class="item pi-button">\pi</div>
+      </div>
+      <div class="tool-element tools">
+        <div class="item derivative-button">\frac{dy}{dx}</div>
+        <div class="item limit-button">\lim_{x\to a}</div>
+        <div class="item integral-button">\int</div>
+        <div class="item nint-button">\int_a^b</div>
+        <div class="item partial-button">\frac{\part f}{\part x}</div>
+        <div class="item sum-button">\sum^{n}_{i=a}</div>
+        <div class="item prod-button">\prod^{n}_{i=a}</div>
+        <div class="item root-button">\sqrt[n]{x}</div>
+        <div class="item potential-button">x^{n}</div>
+        <div class="item fraction-button">\frac{a}{b}</div>
+      </div>
+      <div class="tool-element tools2">
+        <div class="item ex-button">\exists</div>
+        <div class="item forall-button">\forall</div>
+        <div class="item lor-button">\lor</div>
+        <div class="item land-button">\land</div>
+        <div class="item eset-button">\emptyset</div>
+        <div class="item subseteq-button">\subseteq</div>
+        <div class="item supseteq-button">\supseteq</div>
+        <div class="item angle-button">\angle</div>
+        <div class="item cup-button">\cup</div>
+        <div class="item cap-button">\cap</div>
+      </div>
+      <div class="tool-element tools3">
+        <div class="item implies-button">\Rightarrow</div>
+        <div class="item in-button">\in</div>
+        <div class="item notin-button">\notin</div>
+        <div class="item pm-button">\pm</div>
+        <div class="item neq-button">\neq</div>
+        <div class="item syss-button">\Longleftrightarrow</div>
+        <div class="item approx-button">\approx</div>
+        <div class="item perp-button">\perp</div>
+        <div class="item inf-button">\infty</div>
+        <div class="item vector-button">\vec{x}</div>
+      </div>
+      <div class="tool-element tools4">
+        <div class="item integer-button">\Z</div>
+        <div class="item rational-button">\Q</div>
+        <div class="item real-button">\R</div>
+        <div class="item complex-button">\C</div>
+        <div class="item naturals-button">\N</div>
+        <div class="item alpha-button">\alpha</div>
+        <div class="item beta-button">\beta</div>
+        <div class="item theta-button">\theta</div>
+        <div class="item delta-button">\Delta</div>
+        <div class="item pi-button">\pi</div>
+      </div>
+      <div class="tool-element tools-first-clon">
+        <div class="item derivative-button">\frac{dy}{dx}</div>
+        <div class="item limit-button">\lim_{x\to a}</div>
+        <div class="item integral-button">\int</div>
+        <div class="item nint-button">\int_a^b</div>
+        <div class="item partial-button">\frac{\part f}{\part x}</div>
+        <div class="item sum-button">\sum^{n}_{i=a}</div>
+        <div class="item prod-button">\prod^{n}_{i=a}</div>
+        <div class="item root-button">\sqrt[n]{x}</div>
+        <div class="item potential-button">x^{n}</div>
+        <div class="item fraction-button">\frac{a}{b}</div>
+      </div>
+      <div class="arrow-background b-left">
+        <div class="left-arrow" href="#"></div>
+      </div>
+      <div class="arrow-background b-right">
+        <div class="right-arrow" href="#"></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src=" https://printjs-4de6.kxcdn.com/print.min.js"></script>
+  <script type="text/javascript" src="plugins/html2canvas/html2canvas.js"></script>
+  <script type="text/javascript" src="plugins/html2canvas/html2canvas.min.js"></script>
+  <script type="text/javascript" src="plugins/mathquill-0.10.1/mathquill.js"></script>
+  <script type="text/javascript" src="js/general.js"></script>
+  <script type="text/javascript" src="js/toolbar.js"></script>
+</body>
+
+</html>
